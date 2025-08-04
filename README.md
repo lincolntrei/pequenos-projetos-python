@@ -12,6 +12,28 @@ Cada projeto está organizado em sua própria pasta, nomeada de acordo com o tem
 
 ---
 
+### 📌 `cortar-imagens-ao-meio`
+
+**Descrição:**  
+Corta em lado esquerdo e direito todas as imagens de uma pasta, fazendo o output em formato .jpg em outra pasta.
+
+**Biblioteca utilizada:**  
+- `pillow`
+
+---
+
+### 📌 `horas-curso`
+
+**Descrição:**  
+Calcula o tempo total de vídeo de arquivos `.mp4` dentro de uma pasta e gera um plano de estudo, indicando quantos e quais vídeos assistir por dia para completar **1 hora de estudo por dia**.
+
+O resultado é salvo em um arquivo `.txt` dentro da mesma pasta.
+
+**Biblioteca utilizada:**  
+- `moviepy` (versão 2.x)
+
+---
+
 ### 📌 `webscrapping-vivareal`
 
 **Descrição:**  
@@ -39,21 +61,6 @@ Por fim, os resultados são exibidos no terminal e também salvos em arquivo.
 - `requests`
 - `BeautifulSoup`
 - `pandas`
-
----
-
-### 📌 `horas-curso`
-
-**Descrição:**  
-Calcula o tempo total de vídeo de arquivos `.mp4` dentro de uma pasta e gera um plano de estudo, indicando quantos e quais vídeos assistir por dia para completar **1 hora de estudo por dia**.
-
-O resultado é salvo em um arquivo `.txt` dentro da mesma pasta.
-
-**Observação:**  
-Este projeto foi feito com ajuda do **ChatGPT**.
-
-**Biblioteca utilizada:**  
-- `moviepy` (versão 2.x)
 
 ---
 
