@@ -1,95 +1,101 @@
-# 🐍 pequenos-projetos-python
+# 🚀 Lincoln Portfolio
 
-Repositório com pequenos projetos desenvolvidos em **Python** por [Lincoln Ferreira](https://github.com/lincolntrei). Cada projeto tem uma pasta própria e aborda diferentes aplicações práticas de Python, como web scraping, análise de dados e automação.
+Bem-vindo ao meu repositório de projetos Python! Este repositório contém uma coleção de pequenos projetos que desenvolvi para demonstrar diferentes habilidades em programação e desenvolvimento web.
 
----
+## 📋 Sobre o Repositório
 
-## 📂 Estrutura do Projeto
+Este portfolio apresenta varios projetos Python abrangindo desde processamento de imagens até analise de dados. Cada projeto demonstra diferentes aspectos de programação incluindo manipulação de arquivos, processamento de dados, web scraping, e algoritmos para auxilio de decisão.
 
-Cada projeto está organizado em sua própria pasta, nomeada de acordo com o tema.
+## 🔨 Projetos Incluídos
 
-### Projetos disponíveis:
+### ✅ Projetos Finalizados
 
----
+1. **🖼️ Cortador de Imagens**
+   - Corta imagens ao meio verticalmente (lado esquerdo e direito)
+   - Processamento automático de arquivos de imagem
 
-### 📌 `cortar-imagens-ao-meio`
+2. **⏱️ Calculadora de Horas de Curso**
+   - Calcula o tempo total de duração de cursos
+   - Análise de arquivos de vídeo .mp4
 
-**Descrição:**  
-Corta em lado esquerdo e direito todas as imagens de uma pasta, fazendo o output em formato .jpg em outra pasta.
+3. **🎲 Estatísticas da Megasena**
+   - Analisa os números mais sorteados da Megasena
+   - Mostra padrões e estatísticas dos sorteios
 
-**Biblioteca utilizada:**  
-- `pillow`
+4. **🏠 Visualizador de Imóveis**
+   - Exibe informações de imóveis de imobiliárias
+   - Interface para consulta de propriedades
 
----
+### 🚧 Em Desenvolvimento
 
-### 📌 `horas-curso`
+5. **⚖️ Tomador de Decisões**
+   - Sistema de análise de decisões baseado em pontos positivos e negativos
+   - Converte pontuações em porcentagens para auxiliar na tomada de decisão
 
-**Descrição:**  
-Calcula o tempo total de vídeo de arquivos `.mp4` dentro de uma pasta e gera um plano de estudo, indicando quantos e quais vídeos assistir por dia para completar **1 hora de estudo por dia**.
+## 🔄 Mudanças em Andamento
 
-O resultado é salvo em um arquivo `.txt` dentro da mesma pasta.
+**⚠️ REPOSITÓRIO EM REESTRUTURAÇÃO ⚠️**
 
-**Biblioteca utilizada:**  
-- `moviepy` (versão 2.x)
+Atualmente, estou realizando uma grande reestruturação do repositório para melhorar a experiência do usuário e a organização do código:
 
----
+### 🎯 Objetivos da Reestruturação
 
-### 📌 `webscrapping-vivareal`
+- **Frontend Web**: Criação de uma interface web moderna usando Bootstrap
+- **API REST**: Transformação dos projetos em APIs usando FastAPI
+- **Integração**: Conexão entre frontend e backend via Axios
+- **Portfolio Online**: Interface profissional para demonstração dos projetos
 
-**Descrição:**  
-Este projeto realiza um web scraping no site [www.vivareal.com.br](https://www.vivareal.com.br) para buscar imóveis de uma cidade específica no estado de São Paulo.  
-O resultado da primeira página de busca é salvo em um arquivo `.csv`.
+### 🏗️ Nova Arquitetura
 
-**Bibliotecas utilizadas:**  
-- `requests`
-- `BeautifulSoup`
-- `pandas`
-
----
-
-### 📌 `webscrapping-megasena`
-
-**Descrição:**  
-Projeto para coletar os resultados da Mega Sena entre os anos de **2020 a 2022**.  
-Ele conta:
-- Os números mais sorteados no período.
-- Os pares de números mais frequentes.
-
-Por fim, os resultados são exibidos no terminal e também salvos em arquivo.
-
-**Bibliotecas utilizadas:**  
-- `requests`
-- `BeautifulSoup`
-- `pandas`
-
----
-
-## ✅ Objetivo do Repositório
-
-- Reunir pequenos projetos úteis ou de aprendizado.
-- Praticar manipulação de dados, web scraping e automação.
-- Servir como referência futura para o autor e outros desenvolvedores.
-
----
-
-## 🚀 Como executar os projetos
-
-1. **Clone o repositório:**
-```bash
-git clone https://github.com/lincolntrei/pequenos-projetos-python.git
-````
-
-2. **Acesse a pasta do projeto desejado:**
-
-```bash
-cd pequenos-projetos-python/webscrapping-vivareal
+```
+lincoln-portfolio/
+├── frontend/          # Interface web em Bootstrap
+├── backend/           # APIs em FastAPI
+├── data/             # Dados dos projetos
+└── docs/             # Documentação
 ```
 
-3. **Instale as dependências**
+### 📅 Status da Migração
 
-4. **Execute o script Python**
+- [x] Planejamento da nova estrutura
+- [ ] Configuração do FastAPI
+- [ ] Refatoração dos projetos para APIs
+- [ ] Desenvolvimento do frontend Bootstrap
+- [ ] Integração frontend-backend
+- [ ] Testes e documentação
+- [ ] Deploy final
+
+## 🚀 Como Usar (Versão Atual)
+
+Cada projeto está em sua pasta individual e pode ser executado independentemente.
+
+## 🔮 Próximas Features
+
+Após a reestruturação, o portfolio incluirá:
+
+- Interface web responsiva e profissional
+- Seção "Sobre Mim" com informações profissionais
+- Abas individuais para testar cada projeto online
+- APIs RESTful para todos os projetos
+- Documentação automática das APIs
+
+## 🛠️ Tecnologias Utilizadas
+
+### Atual
+- Python 3.x
+- Bibliotecas específicas por projeto
+
+### Futuro (Pós-reestruturação)
+- **Backend**: FastAPI, Python 3.x
+- **Frontend**: Bootstrap 5, JavaScript, Axios
+- **Deploy**: A definir
+
+## 📬 Contato
+
+Este repositório está em constante evolução. Para dúvidas ou sugestões, fique à vontade para abrir uma issue ou entrar em contato.
 
 ---
 
-Desenvolvido com 💻 por [Lincoln Ferreira](https://github.com/lincolntrei)
+**⏳ Última atualização**: Setembro 2025 - Iniciando reestruturação para web portfolio
 
+> 💡 **Nota**: Durante o período de reestruturação, alguns arquivos podem estar temporariamente indisponíveis ou em reorganização. A versão atual dos projetos individuais permanece funcional.
